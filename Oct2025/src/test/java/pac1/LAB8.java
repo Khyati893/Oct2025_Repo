@@ -118,7 +118,7 @@ public class LAB8 {
  
         Select sortBy = new Select(driver.findElement(By.id("input-sort")));
 
-        // *** FIX APPLIED HERE ***
+
 
         sortBy.selectByVisibleText("Name (A - Z)");
 
