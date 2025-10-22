@@ -1,0 +1,105 @@
+Started by user Khyati Gondaliya
+Running as SYSTEM
+Building in workspace C:\Users\Ascendion\.jenkins\workspace\Oct2025
+[Oct2025] $ cmd /c call C:\Users\ASCEND~1\AppData\Local\Temp\jenkins308038767400846080.bat
+
+C:\Users\Ascendion\.jenkins\workspace\Oct2025>cd C:\Users\Ascendion\git\Oct2025_Repo\Oct2025 
+
+C:\Users\Ascendion\git\Oct2025_Repo\Oct2025>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< Oct2025:Oct2025 >---------------------------
+[INFO] Building Oct2025 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Oct2025 ---
+[INFO] Deleting C:\Users\Ascendion\git\Oct2025_Repo\Oct2025\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Oct2025 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Oct2025 ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Oct2025 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Oct2025 ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding windows-1252, i.e. build is platform dependent!
+[INFO] Compiling 23 source files with javac [debug target 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Oct2025 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Oct 22, 2025 12:58:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+Oct 22, 2025 12:58:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+Oct 22, 2025 12:58:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+Oct 22, 2025 12:59:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+===== Testing on Edge =====
+Oct 22, 2025 12:59:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+===== Testing on Edge =====
+Oct 22, 2025 12:59:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+===== Testing on Edge =====
+Page Title: Your Store
+Page Title: Your Store
+Page Title: Your Store
+Heading: Qafox.com
+Heading: Qafox.com
+Heading: Qafox.com
+Current URL: https://tutorialsninja.com/demo/index.php?route=product/search&search=Monitors
+No products found, but search executed successfully
+Test completed successfully on EdgeDriver
+===== Testing on Chrome =====
+Current URL: https://tutorialsninja.com/demo/index.php?route=product/search&search=Monitors
+No products found, but search executed successfully
+Test completed successfully on EdgeDriver
+===== Testing on Chrome =====
+Current URL: https://tutorialsninja.com/demo/index.php?route=product/search&search=Monitors
+No products found, but search executed successfully
+Test completed successfully on EdgeDriver
+===== Testing on Chrome =====
+Page Title: Your Store
+Page Title: Your Store
+Page Title: Your Store
+Heading: Qafox.com
+Heading: Qafox.com
+Heading: Qafox.com
+Current URL: https://tutorialsninja.com/demo/index.php?route=product/search&search=Monitors
+No products found, but search executed successfully
+Test completed successfully on ChromeDriver
+Current URL: https://tutorialsninja.com/demo/index.php?route=product/search&search=Monitors
+No products found, but search executed successfully
+Test completed successfully on ChromeDriver
+Current URL: https://tutorialsninja.com/demo/index.php?route=product/search&search=Monitors
+No products found, but search executed successfully
+Test completed successfully on ChromeDriver
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 429.0 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  08:21 min
+[INFO] Finished at: 2025-10-22T13:05:18+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
